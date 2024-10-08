@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Microsoft YaHei', '微软雅黑', 'Arial', 'sans-serif';
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #0f0f0f;
+    height: 2898px;
+}
+
+.header1{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    background-color: #0f0f0f;
+    box-shadow: 0 -25px 20px 10px #eee7e780;
+    /* z-index: 999; */
+}
+
+.header-logo{
+    width: 150px;
+    height: 80px;
+    /* background-color: #fff000; */
+}
+
+.header-logo .iconfont{
+    position: absolute;
+    top: 35px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.nav1{
+    width: 40%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    top: 15px;
+}
+
+.nav-list1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list1 li{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-list1 li a{
+    color: #c9c9c9;
+    font-size: 13px;
+}
+
+.nav-list1 li:hover {
+    background-color: #23242a;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.nav-list1 li:hover a{
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.search-btn{
+    border: none;
+    background-color: #00000000;
+    color: #eee;
+    position: absolute;
+    right: 30.5%;
+    top: 35px;
+}
+
+.btns{
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    right: 15%;
+    top: 30px;
+    background-color: #24242499;
+    border-radius: 15px;
+}
+
+.btns i{
+    color: #eee;
+}
+
+.login{
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    right: 2.5px;
+    top: 2.5px;
+    background-color: #00000026;
+    border-radius: 15px;
+}
+
+.login-btn, .language-btn1, .skin-btn1{
+    width: 30px;
+    line-height: 25px;
+    border-radius: 15px 0 0 15px;
+    border: none;
+    background-color: #00000000;
+}
+
+.register-btn{
+    width: 30px;
+    line-height: 25px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    background-color: #00000000;
+    position: absolute;
+}
+
+.language{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    right: 35%;
+    top: 2.5px;
+    background-color: #00000026;
+    border-radius: 15px;
+}
+
+.language-btn2{
+    width: 30px;
+    line-height: 25px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    background-color: #00000000;
+    position: absolute;
+}
+
+.skin{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    right: 68.5%;
+    top: 2.5px;
+    background-color: #00000026;
+    border-radius: 15px;
+}
+
+.skin-btn2{
+    width: 30px;
+    line-height: 25px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    background-color: #00000000;
+    position: absolute;
+}
+
+.search{
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 15px -15px #eee7e780;
+}
+
+.search-two{
+    width: 60%;
+    height: 48%;
+    position: relative;
+    left: 20%;
+    top: 26%;
+    border:1px solid #23242a;
+    border-radius: 15px;
+}
+
+.search-icon{
+    width: 5%;
+    height: 100%;
+    border-right: 1px solid #23242a;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: left;
+}
+
+.search-icon .iconfont{
+    font-size: 25px;
+    color: #c9c9c9;
+    position: relative;
+    top:7.5px;
+    left: 14px;
+}
+.search input{
+    width: 80%;
+    line-height: 23px;
+    border: none;
+    outline: none;
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    padding: 7.42px 1%;
+}
+
+.search-two-btn{
+    width: 13%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    top: 0;right: 0;
+}
+
+.search-two-btn p{
+    width: 60%;
+    height:100%;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 48px;
+}
+
+.search-two-btn .iconfont{
+    /* float: left; */
+    width: 27%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 40px;
+    /* background-color: #0f0f0f; */
+    position: absolute;
+    top: 0;
+    right: 98px;
+}
+
+.top{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 1632px;
+    right: 10%;
+}
